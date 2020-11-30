@@ -20,6 +20,11 @@ struct direction {
 }typedef Direction;
 
 
+
+
+
+
+
 class Player
 {
 
@@ -34,10 +39,22 @@ public:
     Player()
     {
         init_board(player_board, 10, 10);//sets all positions to "~"
-        Ships ShipTypes;                 //struct used for storing current ship to be placed
-        Direction direction;             //struct to store directions ships can face
-        randomly_place_ships_on_board(ShipTypes, direction);//places ships
+        Ships ShipTypes;
+        Direction direction;
+        randomly_place_ships_on_board(ShipTypes, direction);
     }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

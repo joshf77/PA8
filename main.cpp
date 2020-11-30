@@ -4,8 +4,8 @@
 int main()
 {
 	srand((unsigned int)time(NULL));
-
 	Player p1;
+	cout << endl;
 	p1.print_board();
 
 	
